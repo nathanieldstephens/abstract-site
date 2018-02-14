@@ -1,0 +1,382 @@
+
+/* Jumbotron */
+
+.jumbotron {
+ position: relative;
+}
+
+.logo {
+  color:#25697D;
+  font-family: poppins-bold;
+  font-size: 2em;
+}
+
+.call-out {
+  color:#25697D;
+  font-family: poppins-bold;
+  font-size: 4em;
+  padding: 75px;
+  margin-bottom: 100px;
+}
+
+.top-bar{
+  background-color: transparent;
+  padding: 25px;
+  position: relative;
+}
+
+/* Section Two */
+
+.section-two {
+  height: 100vh;
+  position: relative;
+  padding-top: 50px;
+
+}
+
+.info-box-title-right {
+  font-family: playfair-black;
+  font-size: 5em;
+  font-weight: 900;
+  color: #404040;
+  margin-top: 50px;
+  margin-left: -150px;
+  position: relative;
+  line-height: .9;
+}
+
+.info-box-text-right {
+  font-family: playfair-bold;
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #404040;
+  position: relative;
+  padding: 50px;
+}
+
+/* Section Three */
+
+.section-three {
+  height: 100vh;
+  position: relative;
+  margin-top: -100px;
+
+}
+
+.info-box-title-left {
+  font-family: playfair-black;
+  font-size: 5em;
+  font-weight: 900;
+  color: #404040;
+  margin-top: 50px;
+  margin-right: -150px;
+  position: relative;
+  line-height: .9;
+  text-align: right;
+}
+
+.info-box-text-left {
+  font-family: playfair-bold;
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #404040;
+  position: relative;
+  padding-left: 80px;
+  padding-top: 50px;
+  text-align: right;
+}
+
+/* Section Four */
+
+.section-four {
+  background-color: #25697D;
+  height: 400px;
+  margin-top: -100px;
+}
+
+.section-four-content {
+  padding: 100px;
+}
+
+.section-four-text {
+  font-family: playfair-black;
+  font-size: 2em;
+  color: #fff;
+}
+
+/* Section Five */
+
+.section-five {
+  height: 100vh;
+  background-color: #25697D;
+}
+
+.section-five-content {
+  padding: 100px;
+}
+
+.section-five-header {
+  font-family: playfair-black;
+  font-size: 4em;
+  color: #fff;
+}
+
+.section-five-text {
+  font-family: poppins-light;
+  font-size: 1em;
+  color: #fff;
+}
+
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 640px) {
+  .image-stack-1 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+
+  .info-box-title-right {
+    font-family: playfair-black;
+    font-size: 4em;
+    font-weight: 900;
+    color: #404040;
+    line-height: .9;
+  }
+
+  .info-box-text-right {
+    font-family: playfair-bold;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: #404040;
+    padding: 50px;
+  }
+
+  .info-box-title-left {
+    font-family: playfair-black;
+    font-size: 4em;
+    font-weight: 900;
+    color: #404040;
+    line-height: .9;
+
+  }
+
+  .info-box-text-left {
+    font-family: playfair-bold;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: #404040;
+  }
+
+  .section-two-content {
+    padding: 25px;
+  }
+
+  .image-stack-2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 911px) {
+
+  .call-out {
+    font-size: 2.5em;
+    padding: 0px 60px 30px 60px;
+  }
+
+  .info-box-title-right {
+    font-family: playfair-black;
+    font-size: 4em;
+    font-weight: 900;
+    color: #404040;
+    line-height: .9;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .info-box-title-left {
+    font-family: playfair-black;
+    font-size: 4em;
+    font-weight: 900;
+    color: #404040;
+    line-height: .9;
+    margin-top: 0;
+    margin-right: 0;
+  }
+}
+
+
+/* Fonts */
+
+@playfair-bold {
+    font-family: playfair-bold;
+    src: url(../fonts/Playfair Display 700.ttf);
+}
+
+@playfair-black {
+    font-family: playfair-black;
+    src: url(../fonts/Playfair Display 900.ttf);
+}
+
+@poppins-light {
+    font-family: poppins-light;
+    src: url(../fonts/Poppins-Light.ttf);
+}
+
+@poppins-bold {
+    font-family: poppins-bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+/* Vertical Align */
+
+.vertical-align {
+   position: relative;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+   -o-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+}
+/* Mouse Scroll */
+
+p {
+  margin-left: -55px;
+}
+@-webkit-keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 29%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+@-moz-keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 29%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+@keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 29%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+ .scroll-btn {
+	position: relative;
+	bottom: 0;
+  text-align: center;
+  margin-bottom: 30px;
+  z-index: 1;
+  color: #25697D;
+}
+
+.scroll-btn > * {
+	display: inline-block;
+	line-height: 18px;
+	font-size: 13px;
+	font-weight: normal;
+	color: #25697D;
+	color: #25697D;
+	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *.active {
+	color: #25697D;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *:active,
+.scroll-btn > *.active {
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+.scroll-btn .mouse {
+	position: relative;
+	display: block;
+	width: 35px;
+	height: 55px;
+	margin: 0 auto 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 3px solid #25697D;
+	border-radius: 23px;
+}
+.scroll-btn .mouse > * {
+	position: absolute;
+	display: block;
+	top: 29%;
+	left: 50%;
+	width: 8px;
+	height: 8px;
+	margin: -4px 0 0 -4px;
+	background: #25697D;
+	border-radius: 50%;
+	-webkit-animation: ani-mouse 2.5s linear infinite;
+	-moz-animation: ani-mouse 2.5s linear infinite;
+	animation: ani-mouse 2.5s linear infinite;
+}
+
+  /* Menu Icon */
+
+#nav {
+    background-color: rgba(37,105,125,.75);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+}
+
+ #nav-list {
+   background-color: rgba(37,105,125,.75);
+   height: 100%;
+   left: 0;
+   top: 0;
+   width: 100%;
+   z-index: 4;
+}
